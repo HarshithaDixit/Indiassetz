@@ -1,0 +1,62 @@
+button {
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+}
+.navbar {
+  height: auto;
+
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+
+
+  background: rgb(218, 229, 231);
+}
+.main {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.arrow img {
+  margin-left: 30%;
+}
+
+.search img {
+  height: 20px;
+  width: 20px;
+}
+
+button img {
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding-right: 500px;
+}
+.main p {
+  font-size: 100%;
+}
+.main img {
+  height: 30px;
+  width: 30px;
+  justify-content: space-around;
+}
+button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  background-color: rgb(45, 35, 149);
+  font-size: 22px;
+  color: white;
+  padding: 0px 30px;
+  margin-top: 30px;
+}
