@@ -15,3 +15,6 @@ Below are the steps to follow:
 
 ## Start the project using below command:
 ### `npm start`
+
+## Sample Output
+### ![alt] (https://github.com/HarshithaDixit/Indiassetz/blob/main/sample_output.PNG)
