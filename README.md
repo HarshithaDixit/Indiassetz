@@ -17,4 +17,4 @@ Below are the steps to follow:
 ### `npm start`
 
 ## Sample Output
-### ![alt] (https://github.com/HarshithaDixit/Indiassetz/blob/main/sample_output.PNG)
+### ![sample_output] (sample_output.PNG)
