@@ -17,5 +17,4 @@ Below are the steps to follow:
 ### `npm start`
 
 ## Sample Output
-### ![sample_output] (./sample_output.PNG)
 <img src="./sample_output.PNG" alt="sample_output"/>
