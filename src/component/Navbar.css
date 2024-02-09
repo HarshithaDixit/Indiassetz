@@ -4,35 +4,29 @@ button {
   justify-content: center;
 }
 .navbar {
-  height: auto;
-
-  width: auto;
-  display: flex;
-  flex-grow: 1;
-
-
-  background: rgb(218, 229, 231);
+ 
+ display: flex;
+ background-color: rgba(164, 159, 159, 0.622);
+  padding: 0px;
+ box-shadow: 7px 5px 17px 1px rgb(132, 132, 139);
+ max-height: 140px;
+ max-width: 1500px;
 }
+  
+
 .main {
   display: flex;
   align-items: center;
-
+margin-top: 1%;
   padding: 20px;
   justify-content: space-evenly;
 }
-.search {
+ .search {
   display: flex;
-  align-items: center;
-  padding: 10px 20px;
-}
-.arrow img {
-  margin-left: 30%;
-}
+   align-items: center; 
+  
+} 
 
-.search img {
-  height: 20px;
-  width: 20px;
-}
 
 button img {
   margin-right: 5px;
@@ -40,7 +34,7 @@ button img {
   height: 20px;
   width: 20px;
   text-align: center;
-  padding-right: 500px;
+  padding-right: 400px;
 }
 .main p {
   font-size: 100%;
@@ -60,3 +54,7 @@ button {
   padding: 0px 30px;
   margin-top: 30px;
 }
+ 
+
+  
+

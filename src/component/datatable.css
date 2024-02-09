@@ -1,0 +1,10 @@
+.text input{
+    width: 700px;
+    height: 50px;
+    margin: 30px;
+    padding-right: 90px;
+    background-color: bisque;
+}
+.grid{
+    background-color: rgb(230, 208, 181);
+}

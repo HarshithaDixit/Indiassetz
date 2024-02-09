@@ -25,6 +25,8 @@ const Sidebar1 = () => {
           float: "left",
           height: "100vh",
           backgroundColor: "blueviolet",
+          boxShadow:"8px 4px 20px #231F20", 
+          marginTop:"1%"
         }}
       >
         <Menu>

@@ -5,6 +5,8 @@ import Sidebar1 from './component/Sidebar1'
   // import { BrowserRouter} from 'react-router-dom'
   import DataTable from './component/DataTable'
   import './index.css'
+  <meta
+  name='viewpoint' content='width=device,initial-scale=1.0'></meta>
 
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
     <Sidebar1/>
     <DataTable/>
     </div>
+    
+   
+
+
   
       
 {/* <BrowserRouter>

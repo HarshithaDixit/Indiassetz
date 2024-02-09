@@ -18,6 +18,8 @@ import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 
 const Navbar = () => {
   return (
+    
+
     <div className="navbar">
       <div className="main">
         <img src="man.svg" alt="" srcset="" />
@@ -30,7 +32,7 @@ const Navbar = () => {
       <div className="arrow">
         <IconButton>
           <ArrowCircleLeftIcon
-            sx={{ width: 50, height: 70, marginTop: "40%" }}
+            sx={{ width: 30, height: 50, marginTop: "49%", paddingRight:'100%'  }}
           />
         </IconButton>
       </div>
@@ -38,52 +40,56 @@ const Navbar = () => {
       <div className="search">
         <Container
           maxWidth="md"
-          sx={{ mt: 1, marginRight: "50%", padding: "0%" }}
+          sx={{ mt: 1, marginRight: "70%"}}
         >
           <TextField
             id="search"
             type="search"
             label="search clients,Properties and service"
-            sx={{ width: 500 }}
+            sx={{ width: 400,margin:"15%"}}
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
                   <SearchIcon />
                 </InputAdornment>
+                
               ),
             }}
           />
         </Container>
       </div>
-
+      <div className="icons">
       <Button
         variant="outlined"
-        sx={{ margin: "3%" }}
+        sx={{margin:"27%", color:"black" }}
         startIcon={<AddCircleOutlineIcon />}
       >
         Add
       </Button>
-      <div className="icons">
+      </div>
+         <div className="text"> 
         <IconButton
           sx={{
             display: "flex",
-            margin: "20%",
-            paddingLeft: "100%",
+              // margin: "10%",
             gap: "20%",
-            justifyContent: "flex-start",
-          }}
-        >
+          justifyContent:"flex-end",
+          position:"absolute",
+          top:"0",
+        
+          
+        }}>
           <TextSnippetIcon
-            sx={{ width: 50, height: 70, marginTop: "15%", paddingLeft: "60%" }}
+            sx={{ width: 20, height: 70, marginTop:"63%" }}
           />
-          <br></br>
-          <br></br>
 
-          <NotificationsIcon sx={{ width: 50, height: 70, marginTop: "20%" }} />
-          <MoreVertIcon sx={{ width: 50, height: 70, marginTop: "20%" }} />
+          <NotificationsIcon sx={{ width: 20, height: 70,marginTop:"63%" }} />
+          <MoreVertIcon sx={{ width: 20, height: 70,marginTop:"63%" }} />
         </IconButton>
+        
       </div>
-    </div>
+      </div>
+     
   );
 };
 export default Navbar;
